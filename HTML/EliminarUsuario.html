@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Usuario</title>
+    <link rel="stylesheet" href="/CSS/estilo_eliminar_usuario.css">
+</head>
+<body>
+    <div class="container">
+
+        <!--Se crean los botones del formulario-->
+    <form action="action_page.php" method="get" class="formulario">
+        <!--Se coloca el titulo para ingresar al sistema-->
+       <h1 class="index_titulo">Eliminar Usuario</h1>
+        <!--Etiqueta e input para el nombre del usuario-->
+        <label for="nombre" class="eliminar_u__etiquetas">Nombre completo</label><br>
+        <input type="text" id="mi_nombre" name="mi_nombre" placeholder="Nombre Usuario" class="eliminar_u__input"><br><br>
+        <!--Etiqueta e input para el email-->
+        <label for="email" class="eliminar_u__etiquetas">Ingrese su email</label><br>
+        <input type="password" id="mi_email" name="mi_email" placeholder="email" class="eliminar_u__input"><br><br>
+        <!--Boton para ir al siguiente formulario-->
+        <button class="eliminar_u__boton">
+            <a target="_blank" href="CrearProducto.html"> Aceptar</a>  
+        </button><br><br>
+        <!--Pendiente como hacer que se vea como un boton-->
+        <button class="eliminar_u__boton">
+            <a  href="EliminarUsuario.html"> Cancelar</a>  
+        </button>     
+    </form> 
+</div>
+</body>
+</html>
